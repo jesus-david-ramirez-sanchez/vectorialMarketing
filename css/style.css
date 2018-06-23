@@ -1,0 +1,219 @@
+/*edicion de scroll*/
+
+body::-webkit-scrollbar{
+    width: 15px;
+    background: #4646467a;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+       background: rgba(54, 54, 54, 0.884);
+       border-radius: 1px;
+}
+
+/*paralax*/
+.paralax-portafolio{
+    background: url(../pages/portafolio/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+
+.paralax-portafolio .p{
+    padding: 20%;
+    color: whitesmoke;
+}
+
+.paralax-portafolio h1{
+    color: whitesmoke;
+}
+
+.paralax-web{
+    background: url(../pages/servicios/desarrolloWeb/img/1-des.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+
+.paralax-web .p{
+    padding: 20%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.paralax-redes{
+    background: url(../pages/servicios/img/1-red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+
+.paralax-redes .p{
+    padding: 20%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
+/*estilos globales*/
+
+h1, h2, h3, h4, h5, h6, p, li, a, ul, ol , span{
+    font-family: 'Muli', sans-serif;
+}
+
+
+
+body{
+    background: black;
+}
+
+.imgmenu{
+
+   margin-right: 280%;
+}
+
+#titulo{
+    font-size: 21px;
+    font-family: 'Cinzel', serif;
+}
+
+.formulario{
+    padding-top: 20px;
+    margin-top: 170px;
+    border-radius: 5px;
+    height: 10%;
+    background: rgba(1, 3, 7, 0.8);
+    color: whitesmoke;
+}
+
+.contenedor{
+    background: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contenedor p{
+    text-align: justify;
+    font-size: 20px;
+    color: whitesmoke;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+footer{
+    background: black;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+footer li {
+    padding: 10px;
+}
+
+.socialmedia li{
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+
+.socialmedia li:hover{
+    color: gray;
+    text-decoration-line: none;
+}
+
+.socialmedia a{
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+
+.socialmedia a:hover{
+    color: gray;
+    text-decoration-line: none;
+}
+
+/*contenedores de colores y varios*/
+
+.google{
+
+    background: url(../img/google.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.google canvas{
+    width: 100%;
+    height: 100%;
+}
+
+
+.yellow{
+    background: url(../img/veamos.jpg);
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.yellow h2{
+    font-size: 45px;
+    
+}
+
+.yellow2 p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*carruserl*/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+
+.menu{   
+    padding: 0;
+    margin: 0;
+    position: relative;
+    transition: 300ms;
+}
+
+.menu:hover{
+    transform: scale(1.05); 
+    transition: all 300ms;
+}
+
+.menu img{
+    height: 700px;
+    display: block;
+    
+}
